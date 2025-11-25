@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+  
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 10px 20px;
@@ -25,4 +25,58 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: #1F2937;
+    gap: 40px
+}
+
+.awesome-section {
+
+    gap: 10px;
+    flex-grow: 0;
+}
+.awesome-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome-subttext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.awesome-image {
+    width: 600px;
+    height: 400px;
+    background-color: #374151;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.awesome-button {
+  /* 1. Change the display property */
+  /* This tells the element to only be as wide as its content and padding */
+  display: inline-block;
+
+  /* 2. Original styling (keep these for look and feel) */
+  padding: 12px 25px; 
+  margin-top: 20px;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
