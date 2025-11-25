@@ -145,3 +145,43 @@ body {
     text-align: left;
     font-style: italic;
 }
+
+.call {
+    background-color: #3882f6;
+    margin: 150px;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    border: white 2px solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+
+}
+
+.call-text-upper {
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+    margin: 0px;
+   
+}
+
+.call-text-lower {
+    font-size: 18px;
+    color: lightgray;
+    font-weight: 400;
+    margin: 0px;
+   
+}
+
+.call-text {
+    flex-shrink: 1;
+}
