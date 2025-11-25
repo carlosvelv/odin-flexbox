@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    font-size: 24px;
+    padding: 20px 200px
+
+}
+
+.list-horizontal {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+body {
+        font-family: "Roboto", sans-serif; /* Specifies Roboto, with sans-serif as a fallback */
+    }
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
